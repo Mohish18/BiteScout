@@ -4,22 +4,28 @@ BiteScout is a full-stack web app recommending top-rated restaurants based on lo
 **Features**
 
 Input location and restaurant type (e.g., Cafe, Casual Dining)
-
 Shows top 5 restaurants by rating and votes
-
 Links to official websites (if available)
-
 Responsive React frontend with themed background
-
 Flask backend handles recommendation logic
 
 **Tech Stack**
+
+
 Frontend: React.js, HTML, CSS
+
+
 Backend: Python (Flask), Pandas
+
+
 Others: REST API, Flask-CORS
 
+
 **Dataset**
+
 Source: Zomato CSV data
+
+
 Columns used: name, location, type, rate, votes, url
 
 **Installation**
