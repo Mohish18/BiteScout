@@ -1,70 +1,61 @@
-BiteScout — Restaurant Recommendation System
-BiteScout is a full-stack web application that recommends top-rated restaurants to users based on their chosen location and restaurant type. The application uses a cleaned and preprocessed dataset from Zomato to deliver intelligent restaurant suggestions through a user-friendly interface.
+**BiteScout — Restaurant Recommendation System**
+BiteScout is a full-stack web app recommending top-rated restaurants based on location and restaurant type. It uses a cleaned Zomato dataset for suggestions via a simple interface.
 
-Features
-Input fields for users to enter:
+**Features**
 
-Preferred location
+Input location and restaurant type (e.g., Cafe, Casual Dining)
 
-Desired restaurant type (e.g., Cafe, Casual Dining, Quick Bites)
+Shows top 5 restaurants by rating and votes
 
-Displays top 5 restaurant recommendations based on rating and vote count
+Links to official websites (if available)
 
-Provides links to the restaurant's official website (if available)
+Responsive React frontend with themed background
 
-React-based responsive user interface with a themed background image
+Flask backend handles recommendation logic
 
-Flask API backend to handle recommendation logic
-
-Tech Stack
+**Tech Stack**
 Frontend: React.js, HTML, CSS
-
 Backend: Python (Flask), Pandas
-
 Others: REST API, Flask-CORS
 
-Dataset
-Source: Zomato restaurant data (CSV format)
-
+**Dataset**
+Source: Zomato CSV data
 Columns used: name, location, type, rate, votes, url
 
-Installation
-Prerequisites
-Node.js and npm
+**Installation**
 
-Python 3
+Prerequisites: Node.js, npm, Python 3
 
-Backend Setup
-bash
-Copy
-Edit
-cd backend
-pip install flask pandas flask-cors
-python app.py
-Frontend Setup
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
-Usage
-Launch the Flask backend (http://localhost:5000)
+**Backend:**
 
-Start the React frontend (http://localhost:3000)
+pip install flask pandas flask-cors  
+python app.py  
 
-Enter a location and restaurant type, then click Search
+**Frontend:**
 
-View top matching restaurants with details and website links
+npm install  
+npm start  
 
-Future Improvements
-Deploy the application online (using Render, Vercel, or Replit)
+**Usage**
 
-Add filters for average cost, delivery options, and cuisines
+Run Flask backend (http://localhost:5000)
 
-Include charts for data visualization (e.g., Plotly or Chart.js)
+Run React frontend (http://localhost:3000)
 
-Add a feedback or rating system for users
+Enter location and restaurant type, click Search
 
-License
-This project is open-source and available for educational and non-commercial use.
+View top recommendations with details
+
+**Future Improvements**
+
+Deploy online (Render, Vercel, Replit)
+
+Add filters (cost, delivery, cuisine)
+
+Add charts (Plotly, Chart.js)
+
+Add user feedback system
+
+**License**
+Open-source for educational and non-commercial use
+
